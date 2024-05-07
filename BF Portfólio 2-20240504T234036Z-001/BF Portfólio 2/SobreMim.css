@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+background: #B0C4DE;
+height: 100vh;
+overflow: hidden;
+
+}
+
+nav.menu-Lat{
+    width:72px;
+    height: 100%;
+    background-color: #4682B4;
+    padding: 40px 0 40px 0%;
+    box-shadow: 3px 0 0 #00FFFF ;
+
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+nav.menu-Lat.expandir{
+	width: 250px;
+
+}
+
+.btn-expandir {
+	width: 100%;
+	padding-left: 10px;
+}
+
+.btn-expandir> i{
+	color: #00FFFF; 
+ 	font-size: 30px;
+ 	cursor: pointer;
+}
+
+ul {
+	height: 100%;
+	list-style-type:none;
+
+}
+
+ul li.itens-menu{
+   transition: .5s;
+
+}
+
+ul li.ativo{
+	background-color: #B0C4DE ;
+
+}
+
+.itens-menu:hover {
+
+		background-color: #B0C4DE;
+	}
+
+ul li.itens-menu a {
+
+	color: #F0FFFF ;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px 4%;
+	display: flex;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+ul li.itens-menu a .txt-link {
+	margin-left: 70px;
+	transition: .5s;
+	opacity: 0;
+}
+
+nav.menu-Lat.expandir .txt-link{
+	margin-left: 40px;
+	opacity: 1;
+}
+
+ul li.itens-menu a .icone> i{
+ font-size: 30px;
+ margin-left: 10px;
+
+}
+
+img {
+    border-radius: 30%;
+}
+section.sobreMim{
+    display: flex;
+    margin-top: 5%;
+    padding: 40px 20%;
+    align-items: center;
+    gap: 60px;
+}
+
+.sobreMim .txt-sobre h2{
+    
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.sobreMim .txt-sobre h2 span{
+    color:#4eaff0;
+    display: block;
+}
+
+.sobreMim .txt-sobre p{
+    text-align: start;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experiencias p {
+    text-align: start;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 270px ;
+}
+/* PÁGINA CONTATOS */
+
+button:hover{
+    box-shadow: 0 0 8px  #00FFFF;
+    transform: scale(1.05);
+    
+}
+div.btn-contatos button {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    border: 5%;
+    background-color:  #4682B4;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 150px;   
+    
+}
+
+ div.btn-contatos .email button{
+    margin-left: 660px ;
+ }
